@@ -1,10 +1,10 @@
-# koa-session-redis3
-koa-session-redis3 
+# koa-session-redis-01
+koa-session-redis-01
 
 ## How to use
 `koa@2`基于koa2.0的session处理
 
-`npm install koa-session-redis3 --save`
+`npm install koa-session-redis-01 --save`
 
 ## Notice
 原本生成session是基于客户端cookies的，并存于redis中，但app端无cookies机制，所以原代码就不适用了，
@@ -19,7 +19,7 @@ koa-session-redis3
       const koa = require('koa')
       const app = new koa()
       const convert = require('koa-convert')
-      const session = require('koa-session-redis3')
+      const session = require('koa-session-redis-01')
 
       app.keys = ['session keys']
 
