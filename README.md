@@ -9,7 +9,9 @@ koa-session-redis3
 ## Notice
 原本生成session是基于客户端cookies的，并存于redis中，但app端无cookies机制，所以原代码就不适用了，
 
-所以在原来的基础上做了修改，同样可以适用于pc和app两端来存储用户session
+所以在原来的基础上做了修改，同样可以适用于pc和app两端来存储用户session,
+
+并且对原来的thunkify方式改为了Promise方式处理。
 
 ## Example
 
